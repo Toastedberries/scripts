@@ -1,0 +1,18 @@
+local function peanut(plr)
+wait(3)
+ local face = Instance.new('Decal')
+ game.Workspace:FindFirstChild(plr).Head.face:Destroy()
+ face.Texture = "http://www.roblox.com/asset/?id=10491759347"
+ face.Name = "face"
+ face.Parent = game.Workspace:FindFirstChild(plr).Head
+
+	for i, v in pairs(game.Workspace:FindFirstChild(plr):GetDescendants()) do
+		if v:IsA("BasePart") then
+            wait(1.5)
+			v.Color = Color3.new(0.8, 0.572549, 0.278431)
+		end
+	end
+end
+
+
+peanut("LocinStoMoe2")
