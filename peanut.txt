@@ -15,4 +15,4 @@ wait(3)
 end
 
 
-peanut("LocinStoMoe2")
+peanut("ihateAdware")
